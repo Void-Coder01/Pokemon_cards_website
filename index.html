@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id = "form" action="">
+        <label for="pokemon-count"> Enter the no. of cards</label>
+        <input type="number" id = "pokemon-count" min="1" max="100" required>
+
+        <label for="pokemon-category">Select the category</label>
+        <select name="dropdown" id="pokemon-category" style="padding :1px;">
+            <option value="fire">Fire</option>
+            <option value="water">Water</option>
+            <option value="grass">Grass</option>
+            <option value="electric">Electric</option>
+            <option value="flying">Flying</option>
+            <option value="fairy">Fairy</option>
+            <option value="poison">Poison</option>
+            <option value="ice">Ice</option>
+            <option value="normal">Normal</option>
+            <option value="bug">Bug </option>
+            <option value="rock">Rock</option>
+            <option value="steel">Steel</option>
+            <option value="psychic">Psychic</option>
+            <option value="ghost">Ghost</option>
+        </select>
+        
+
+        <button id = "btnsumbit">submit</button>
+    </form>
+
+    <div id = "pokemon_container" >
+
+    </div>
+   
+    <script src="pokemon.js"></script>
+</body>
+</html>
